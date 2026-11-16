@@ -215,7 +215,7 @@ float lireConductivite() {
     delay(5);
   }
   float tension = (somme / 10.0) / 4095.0;
-  return tension * 2000.0;
+  return tension * 3000.0;
 }
 
 float lireTemperature() {
